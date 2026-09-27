@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Depths — Dive</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-screen="dive">
+    <main>
+      <canvas
+        id="prototype"
+        width="1920"
+        height="1080"
+        tabindex="0"
+        aria-label="Dive gameplay wireframe"
+      ></canvas>
+      <nav class="simulation-controls" aria-label="Simulate gameplay outcome">
+        <a class="simulation-button" href="result-death.html">
+          SIMULATE: PLAYER DEAD
+        </a>
+        <a class="simulation-button" href="boss-cleared.html">
+          SIMULATE: BOSS DEFEATED
+        </a>
+      </nav>
+    </main>
+    <script src="prototype.js"></script>
+  </body>
+</html>

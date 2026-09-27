@@ -1,0 +1,73 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #d8d8d8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+main {
+  width: min(100%, 1600px);
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #f5f5f5;
+  border: 2px solid #111;
+}
+
+.instructions {
+  margin: 10px 0 0;
+  color: #222;
+  font-size: 14px;
+  text-align: center;
+}
+
+.simulation-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.simulation-button {
+  display: block;
+  padding: 18px 24px;
+  border: 3px solid #2457a6;
+  background: #fff;
+  color: #111;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.simulation-button:hover,
+.simulation-button:focus-visible {
+  background: #eef3ff;
+  outline: 3px solid #111;
+  outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+  .simulation-controls {
+    grid-template-columns: 1fr;
+  }
+}
