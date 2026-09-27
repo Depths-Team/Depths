@@ -1,0 +1,110 @@
+# ------------------------------------------------------------
+# Operating-system files
+# ------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# ------------------------------------------------------------
+# Editor and IDE files
+# ------------------------------------------------------------
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# Local secrets and environment configuration
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------
+# Logs, caches, temporary files, and local preview output
+# ------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.autosave
+.cache/
+.tmp/
+tmp/
+coverage/
+
+# ------------------------------------------------------------
+# JavaScript dependencies and generated web output
+# ------------------------------------------------------------
+node_modules/
+dist/
+out/
+.parcel-cache/
+.vite/
+
+# ------------------------------------------------------------
+# Unity-generated files
+# Keep Assets/, Packages/, and ProjectSettings/ in Git.
+# ------------------------------------------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ------------------------------------------------------------
+# Godot-generated files
+# Keep project.godot and source assets in Git.
+# ------------------------------------------------------------
+.godot/
+.import/
+
+# ------------------------------------------------------------
+# Unreal Engine-generated files
+# Keep Config/, Content/, Plugins/, Source/, and the .uproject file.
+# ------------------------------------------------------------
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# ------------------------------------------------------------
+# Art-tool backup and preview files
+# ------------------------------------------------------------
+*.blend1
+*.blend2
+*.ma~
+*.mb~
+autosave/
+incrementalSave/
+renderData/
+
+# ------------------------------------------------------------
+# Archives and local exports that should not be versioned
+# Add project-specific generated export folders below as needed.
+# ------------------------------------------------------------
+*.zip
+*.7z
+*.rar
+
